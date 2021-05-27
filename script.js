@@ -37,5 +37,5 @@ function scoreCounter() {
 	setInterval(() => {
 		score++;
 		document.querySelector(".score").innerHTML = score;
-	}, 10);
+	}, 100);
 }
